@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Red Social</title>
+  <!-- google icon fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Englebert" rel="stylesheet">
+   
+
+  <!-- Materialize -->
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="header">
+   
+    <div class="row">
+      <div class="col s12">
+       <p class="title">SOCIAL BEAR</p>
+       </div>  
+    </div>
+  </header>
+  <section class="index">
+    <div class="row">
+      <div class="col s12">
+        <img class="responsive-img" id="logoBear" src="assets/images/logo_oso.jpg">
+          
+          <a id="btnLeft" class="waves-effect waves-light btn modal-trigger" href="#modal2"><i class="material-icons left">cloud</i>Log In</a>
+              <!-- Modal Structure 1-->
+            <div id="modal2" class="modal">
+              <div class="modal-content">
+                  <h4 class="titleModal">Social Bear</h4>
+                <div class="input-field col s12">
+                  <input placeholder="Phone number,username, or email" id="first_name" type="text" class="validate">
+                  <input placeholder="Password" id="first_name" type="text" class="validate">     
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close teal accent-4 btn">Log In</a>
+                    </div>
+                      <p class="forgot">Forgot password?</p>
+                </div>
+              </div>
+            </div>
+            <!-- botón sing up-->
+            <a  class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons right">cloud</i>Sing Up</a>
+            <!-- Modal Structure -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4 class="titleModal">Social Bear</h4>
+                  <div class="input-field col s12">
+                    <input placeholder="Mobile Number or Email" id="first_name" type="text" class="validate">
+                    <input placeholder="Full Name" id="first_name" type="text" class="validate">
+                    <input placeholder="Username" id="first_name" type="text" class="validate">
+                    <input placeholder="Password" id="first_name" type="text" class="validate">
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close teal accent-4 btn">Sign Up</a></div>
+                  </div>
+                    <p class="privacy">By signing up, you agree to our </p>
+                    <p class="terms">Terms & Privacy Policy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section> 
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Materialize -->
+  <script src="assets/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
