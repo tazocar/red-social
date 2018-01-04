@@ -1,3 +1,6 @@
+body{
+  padding: 3em 0 1.5em 0;
+}
 .row .col {
   float: left;
   -webkit-box-sizing: border-box;
@@ -54,4 +57,57 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
   height: 4em;
   border-radius: 50%;
   background-color: purple;
+}
+.friend-photo-header{
+  padding-top: 2em;
+}
+.friend-name{
+  margin: 0.3em 0 0 0;
+}
+.uploaded-image{
+  height: 25em;
+  background-color: pink;
+  margin-bottom: 0.4em;
+}
+.heart{
+  vertical-align: middle;
+}
+.heart-count{
+  font-weight: bolder;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  padding-left: 0.5em;
+}
+.personal-comment{
+  margin: 0.2em 0 0;
+}
+.fixed-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.fixed-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4.5em;
+  padding-top: 0.7em;
+}
+.clear-margin{
+  margin: 0;
+}
+.col.s10.friend-comment-margin{
+  padding-left: 1em;
+}
+#comment-input{
+  border-radius: 5px;
+  padding-left: 0.7em;
+  width: 85%;  
+  vertical-align: middle;
+}
+.send-comment{
+  color: #FFF;
 }
