@@ -7,13 +7,18 @@
 .profile-background{
   height: 10em;
   width: 100%;
-  background-image: url(../images/profile-back.jpg);
+  background-image: url(../images/profile-back.png);
   background-size: cover;
   background-position: center;
   padding-top: 6em;
+  margin-bottom: 12em;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+  display: inline-block;
 }
 .profile-user-image{
-  background-image: url(../images/profile-user-img.png);
+  background-image: url(../images/profile-user-img.jpg);
+  background-position: center;
   width: 8em;
   height: 8em;
   border-radius: 50%;
@@ -22,8 +27,31 @@
 }
 .user-name{
   font-weight: bolder;
+  margin-bottom: 0.2em;
 }
-.user-state{
+.number-title{
+  font-size: 2em;
+  font-weight: bolder;
   margin: 0;
-  font-size: 1.5em;
+}
+.number-type{
+  font-size: 1.2em;
+  margin: 0.2em 0 0;
+}
+.bg1{
+  background-image: url(../images/img1.jpg);
+  height: 10em;
+  background-size: cover;
+}
+.row.images{
+  margin: 0;
+}
+.images .col6{
+  margin: 5px;
+}
+.friend-img-bg{
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-color: purple;
 }
