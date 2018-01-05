@@ -12,10 +12,13 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="fixed-top">
         <div class="nav-wrapper teal accent-4">
-          <!-- <i class="material-icons">arrow_back</i> -->
-          <a href="#" class="brand-logo center">Social Bear</a>
+          <div class="container container-flex">
+            <a  href="self-profile.html"><i class="material-icons">account_circle</i></a>
+            <a href="user-index.html" class="brand-logo">Social Bear</a>
+            <a href="chat.html"><i class="material-icons">chat</i></a>
+          </div>
         </div>
       </nav>
     </header>
@@ -25,12 +28,15 @@
           <div class="col s12 center">
             <div class="profile-user-image">
             </div>
-            <h4 class="user-name">Flema Blasfema</h4>
-            <button class="btn">Follow</button>
+            <h4 class="user-name">Panda</h4>
+            <label class="upload-btn">
+              <input type="file" name="file" value="" id="file" class="hide">
+              <a class="btn" id="upload-image">Upload</a>
+            </label>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row clear-margin">
         <div class="col s12">
           <div class="row center">
             <div class="col s4">
@@ -38,7 +44,7 @@
               <h4 class="number-type">Followers</h4>
             </div>
             <div class="col s4">
-              <h3 class="number-title posts"> 655</h3>
+              <h3 class="number-title" id="postCount">0</h3>
               <h4 class="number-type">Posts</h4>
             </div>
             <div class="col s4">
@@ -50,29 +56,15 @@
       </div>
     </section>
     <section>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
+      <div class="row clear-margin">
+        <div class="col s12">
+          <div id="progress" class="progress hide clear-margin ">
+              <div class="determinate bar-charge" id="bar-charge"></div>
+          </div>
+        </div>
       </div>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
-      </div>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
-      </div>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
-      </div>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
-      </div>
-      <div class="row images">
-        <div class="col s6 post bg1"></div>
-        <div class="col s6 post bg1"></div>
+      <div id="self-images" class="row images">
+        <!-- Espacio para nuevas imágenes -->
       </div>
     </section>
     <!-- jQuery -->

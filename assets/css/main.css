@@ -1,5 +1,8 @@
 body{
-  padding: 3em 0 1.5em 0;
+  padding: 4em 0 5em 0;
+}
+.center-div{
+  margin: 0 auto;
 }
 .row .col {
   float: left;
@@ -28,6 +31,30 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
   background-size: cover;
   margin: 0 auto;
 }
+.profile-friend-image{
+  background-image: url(../images/polar.jpg);
+  background-position: center;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 0 auto;
+}
+.friend-small-img{
+  background-image: url(../images/polar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.friend-small-img-two{
+  background-image: url(../images/grizzly.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.personal-small-img{
+  background-image: url(../images/profile-user-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .user-name{
   font-weight: bolder;
   margin-bottom: 0.2em;
@@ -42,9 +69,48 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
   margin: 0.2em 0 0;
 }
 .bg1{
-  background-image: url(../images/img1.jpg);
+  background-image: url(../images/polar1.png);
+}
+.bg2{
+  background-image: url(../images/polar10.jpg);
+}
+.bg3{
+  background-image: url(../images/polar2.jpg);
+}
+.bg4{
+  background-image: url(../images/polar3.jpg);
+}
+.bg5{
+  background-image: url(../images/polar4.jpg);
+}
+.bg6{
+  background-image: url(../images/polar5.png);
+}
+.bg7{
+  background-image: url(../images/polar6.png);
+}
+.bg8{
+  background-image: url(../images/polar7.png);
+}
+.bg9{
+  background-image: url(../images/polar8.jpg);
+}
+.bg10{
+  background-image: url(../images/polar9.jpg);
+}
+.bg11{
+  background-image: url(../images/polar11.jpg);
+}
+.bg12{
+  background-image: url(../images/polar12.jpg);
+}
+.bg13{
+  background-image: url(../images/bg13.jpg);
+}
+.bg{
   height: 10em;
   background-size: cover;
+  background-position: center;
 }
 .row.images{
   margin: 0;
@@ -56,17 +122,18 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
   width: 4em;
   height: 4em;
   border-radius: 50%;
-  background-color: purple;
 }
 .friend-photo-header{
-  padding-top: 2em;
+  padding-top: 1em;
 }
 .friend-name{
   margin: 0.3em 0 0 0;
+  font-weight: bolder;
 }
 .uploaded-image{
   height: 25em;
-  background-color: pink;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 0.4em;
 }
 .heart{
@@ -110,4 +177,31 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 }
 .send-comment{
   color: #FFF;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.friend-row a{
+  color: #000;
+}
+.upload-btn{
+  cursor: pointer;
+}
+.friend-comment{
+  word-break: break-word;
+}
+.red-heart{
+  color: #f66f98;
+}
+.modals{
+  margin-top: 70vh;
+}
+.circular-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: pink;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
 }

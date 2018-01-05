@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Red Social</title>
+    <!-- google icon fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize -->
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav class="fixed-top">
+        <div class="nav-wrapper teal accent-4">
+          <div class="container container-flex">
+            <a  href="self-profile.html"><i class="material-icons">account_circle</i></a>
+            <a href="user-index.html" class="brand-logo">Social Bear</a>
+            <a href="chat.html"><i class="material-icons">chat</i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="profile-background">
+        <div class="row">
+          <div class="col s12 center">
+            <div class="profile-friend-image">
+            </div>
+            <h4 class="user-name">Polar</h4>
+            <div class="follower">
+              <button class="btn disabled" id="follow">Unfollow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row clear-margin">
+        <div class="col s12">
+          <div class="row center">
+            <div class="col s4">
+              <h3 class="number-title" id="followers">25</h3>
+              <h4 class="number-type">Followers</h4>
+            </div>
+            <div class="col s4">
+              <h3 class="number-title posts">12</h3>
+              <h4 class="number-type">Posts</h4>
+            </div>
+            <div class="col s4">
+              <h3 class="number-title follows">35</h3>
+              <h4 class="number-type">Follows</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row images">
+        <div class="col s6 post bg bg1"></div>
+        <a href="image-comment.html"><div class="col s6 post bg bg2"></div></a>
+      </div>
+      <div class="row images">
+        <div class="col s6 post bg bg3"></div>
+        <div class="col s6 post bg bg10"></div>
+      </div>
+      <div class="row images">
+        <div class="col s6 post bg bg5"></div>
+        <div class="col s6 post bg bg6"></div>
+      </div>
+      <div class="row images">
+        <div class="col s6 post bg bg7"></div>
+        <div class="col s6 post bg bg8"></div>
+      </div>
+      <div class="row images">
+        <div class="col s6 post bg bg9"></div>
+        <div class="col s6 post bg bg4"></div>
+      </div>
+      <div class="row images">
+        <div class="col s6 post bg bg11"></div>
+        <div class="col s6 post bg bg12"></div>
+      </div>
+    </section>
+    <footer>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize -->
+    <script src="assets/js/materialize.min.js"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
