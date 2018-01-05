@@ -150,7 +150,7 @@ btnSignUp.addEventListener("click", e => {
 btnLogIn.addEventListener("click", function(){
   firebase.auth().onAuthStateChanged(firebaseUser => {
     if (firebaseUser) {
-      self.location="https://tazocar.github.io/red-social/user-index.html";
+      self.location="user-index.html";
     } else {
       console.log(false);
     }
@@ -159,9 +159,4 @@ btnLogIn.addEventListener("click", function(){
 
 btnLogOut.addEventListener("click", e => {
   firebase.auth().signOut();
-  firebase.auth().onAuthStateChanged(firebaseUser => {
-    if (!firebaseUser) {
-      self.location="https://tazocar.github.io/red-social/index.html";
-    }
-  });
 });
